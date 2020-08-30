@@ -1,6 +1,10 @@
 # NAME
 CRUD.php
 
+# URL
+https://tomohiro.site/CRUD/index.php
+ご自由にお使いください。
+
 # Features
 Creat,Read,Update,Deleteが直感的に使える掲示板です
 

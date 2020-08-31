@@ -1,0 +1,49 @@
+.create_button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px!;
+  background: #3cb371;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.create_button:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px white;
+  border-bottom: solid 41px transparent;
+  z-index: 1;
+  transition: .4s;
+}
+
+.create_button:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 21px transparent;
+  border-bottom: solid 41px white;
+  z-index: 1;
+  transition: .4s;
+}
+
+.create_button:hover:before, .create_button:hover:after {
+  border-left-width: 25px;
+}
+
+.create_button:hover {
+  background: #2c3148;
+}

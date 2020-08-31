@@ -1,8 +1,9 @@
 body {
+	font-size: 1rem;
 	width: 490px;
 	background-color: black;
 	color: #3cb371;
-	margin: 10px auto;
+	margin: 10px auto 0px auto;
 	border:1px solid #3cb371;
 }
 
@@ -14,7 +15,7 @@ body {
 
 .header_title {
 	padding: 5px;
-	font-size: 30px;
+	font-size: 3rem;
 }
 
 .header_ver {
@@ -26,17 +27,23 @@ body {
 	padding: 10px;
 	border-bottom:1px solid #3cb371;
 }
+
+.content_title {
+	font-size: 2rem;
+}
+
 .content_info {
 	margin: 5px 5px 5px 20px;
 }
 
 .content p {
-	font-size: 20px;
+	font-size: 1rem;
 	word-break: break-all;
+	padding: 5px 0px;
 }
 
 .small-font {
-	font-size: 10px;
+	font-size: 0.8rem;
 }
 
 .input_name {
@@ -45,6 +52,16 @@ body {
 
 .input_text {
 	width: 100%;
+}
+
+.create_button {
+	width: 100%
+}
+
+.post {
+	border: 1px solid #3cb371;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 5px 0px 5px;
 }
 
 .footer {
@@ -59,6 +76,10 @@ body {
 
 @media screen and (max-width: 490px) {
 body {
-	width:100%;
+	width:98%%;
+}
+
+.header_title {
+	font-size: 2rem;
 }
 }

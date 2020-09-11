@@ -1,34 +1,28 @@
-<?php include('conect.php'); ?>
-
-<html lang="ja">
-<head>
-	<meta charset ="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
-	<title>SECRET_BOARD</title>
-	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/plugin.css">
-	<script type="text/javascript" src="./js/script.js"></script>
-</head>
-<body>
-	<div class="header">
-		<h1 class="header_title">SECRET_BOARD</h1>
-		<p class="header_ver small_font">Ver2.2</p>
+<?php
+require 'conect.php';
+require 'header.php';
+?>
+	<div class="content">
+		<h2 class="content_title">更新情報</h2>
+		<ul class="content_info">
+			<li>9/9 TREND機能追加</li>
+			<li>9/2 Update機能追加</li>
+			<li>9/1 Delete機能追加</li>
+			<li>8/30 セキュリティ強化</li>
+			<li>8/29 Create Read機能追加</li>
+		</ul>
 	</div>
 	<div class="content">
-	<h2 class="content_title">更新情報</h2>
-	<ul class="content_info">
-		<li>8/30 セキュリティ強化</li>
-		<li>8/29 Create機能追加</li>
-	</ul>
-	</div>
-	<div class="content">
-	<h2 class="content_title">入力フォーム</h2>
-	<form method="post" action="create.php">
-		<p>名前（20文字まで）<br><input class="input_name" type="text" name="name" value="" /></p>
-		<p>コメント（180文字まで）</br><textarea class="input_text" name="comment" rows="4" cols="40"></textarea></p>
-		<input type="hidden" name="token" value="<?php echo $token;?>">
-		<input class="create_button" type="submit" name="send" value="投稿" />
+		<h2 class="content_title">入力フォーム</h2>
+		<form method="post" action="create.php">
+			<p>名前（20文字まで）<br>
+			<input class="input_name" type="text" name="name" value="" /></p>
+			<p>コメント（180文字まで）</br>
+			<textarea class="input_text" name="comment" rows="4" cols="40"></textarea></p>
+			<p>編集用パスワード（20文字まで）<br>
+			<input class="input_name" type="text" name="key" value="" /></p>
+			<input type="hidden" name="token" value="<?php echo $token;?>">
+			<input class="button button_create" type="submit" name="send" value="投稿" />
 <?php
 if (isset($_SESSION['msg']))
 {
@@ -36,19 +30,35 @@ if (isset($_SESSION['msg']))
 	unset($_SESSION['msg']);
 }
 ?>
-	</form>
+		</form>
 	</div>
 	<div class="content">
 <?php
 foreach($data as $key =>$val)
-	echo '<div class="post"><p><span class="small-font">'.$val["id"].'</span> '
-	,htmlspecialchars($val["name"]).'<br>'
-	.htmlspecialchars($val["comment"]).'<br>
-	<span class="small-font">'.$val["date"].'</span></p></div>';
+{
+	$id = htmlspecialchars($val["id"], ENT_QUOTES, 'UTF-8');
+	$name = htmlspecialchars($val["name"], ENT_QUOTES, 'UTF-8');
+	$comment = htmlspecialchars($val["comment"], ENT_QUOTES, 'UTF-8');
+	$date = htmlspecialchars($val["date"], ENT_QUOTES, 'UTF-8');
+	$password = htmlspecialchars($val["password"], ENT_QUOTES, 'UTF-8');
+	echo
+		'<div class="post">
+			<p>'.$id.' '.$name.'<br>'.
+				$comment.'<br>'.
+				'<span class="small-font">'.$date.'</span>'.
+			'</p>
+			<div class="post_button">
+				<form method="post" action="check.php">
+				<input type="hidden" name="id" value=" '.$id.' ">
+					<input type="hidden" name="name" value=" '.$name.' ">
+					<input type="hidden" name="comment" value=" '.$comment.' ">
+					<input type="hidden" name="date" value=" '.$date.' ">
+					<input type="hidden" name="key" value=" '.$password.' ">
+					<input class="button button_check" type="submit" name="delete" value=">>">
+				</form>
+			</div><!-- /.post_button -->
+		</div>',PHP_EOL;
+}
 ?>
 	</div>
-	<div class="footer">
-	© tobata
-	</div>
-</body>
-</html>
+<?php require 'footer.php'; ?>

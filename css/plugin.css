@@ -1,4 +1,4 @@
-.create_button {
+.button {
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -12,7 +12,7 @@
   transition: .4s;
 }
 
-.create_button:before {
+.button:before {
   position: absolute;
   content: '';
   left: 0;
@@ -26,7 +26,7 @@
   transition: .4s;
 }
 
-.create_button:after {
+.button:after {
   position: absolute;
   content: '';
   right: 0;
@@ -40,10 +40,10 @@
   transition: .4s;
 }
 
-.create_button:hover:before, .create_button:hover:after {
+.button:hover:before, .button:hover:after {
   border-left-width: 25px;
 }
 
-.create_button:hover {
+.button:hover {
   background: #2c3148;
 }

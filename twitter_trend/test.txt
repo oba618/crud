@@ -1,0 +1,672 @@
+array(1) {
+  [0]=>
+  object(stdClass)#57 (4) {
+    ["trends"]=>
+    array(50) {
+      [0]=>
+      object(stdClass)#2 (5) {
+        ["name"]=>
+        string(43) "#おそらく最も正確な寿命測定器"
+        ["url"]=>
+        string(157) "http://twitter.com/search?q=%23%E3%81%8A%E3%81%9D%E3%82%89%E3%81%8F%E6%9C%80%E3%82%82%E6%AD%A3%E7%A2%BA%E3%81%AA%E5%AF%BF%E5%91%BD%E6%B8%AC%E5%AE%9A%E5%99%A8"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(129) "%23%E3%81%8A%E3%81%9D%E3%82%89%E3%81%8F%E6%9C%80%E3%82%82%E6%AD%A3%E7%A2%BA%E3%81%AA%E5%AF%BF%E5%91%BD%E6%B8%AC%E5%AE%9A%E5%99%A8"
+        ["tweet_volume"]=>
+        int(28986)
+      }
+      [1]=>
+      object(stdClass)#8 (5) {
+        ["name"]=>
+        string(37) "#セーラームーンキャラ診断"
+        ["url"]=>
+        string(139) "http://twitter.com/search?q=%23%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%A9%E8%A8%BA%E6%96%AD"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(111) "%23%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BC%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%A9%E8%A8%BA%E6%96%AD"
+        ["tweet_volume"]=>
+        int(12246)
+      }
+      [2]=>
+      object(stdClass)#9 (5) {
+        ["name"]=>
+        string(22) "#金村美玖生誕祭"
+        ["url"]=>
+        string(94) "http://twitter.com/search?q=%23%E9%87%91%E6%9D%91%E7%BE%8E%E7%8E%96%E7%94%9F%E8%AA%95%E7%A5%AD"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(66) "%23%E9%87%91%E6%9D%91%E7%BE%8E%E7%8E%96%E7%94%9F%E8%AA%95%E7%A5%AD"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [3]=>
+      object(stdClass)#10 (5) {
+        ["name"]=>
+        string(20) "#ブラスタ1周年"
+        ["url"]=>
+        string(86) "http://twitter.com/search?q=%23%E3%83%96%E3%83%A9%E3%82%B9%E3%82%BF1%E5%91%A8%E5%B9%B4"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(58) "%23%E3%83%96%E3%83%A9%E3%82%B9%E3%82%BF1%E5%91%A8%E5%B9%B4"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [4]=>
+      object(stdClass)#11 (5) {
+        ["name"]=>
+        string(34) "#私たちはどうかしている"
+        ["url"]=>
+        string(130) "http://twitter.com/search?q=%23%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E3%81%8B%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(102) "%23%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%A9%E3%81%86%E3%81%8B%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B"
+        ["tweet_volume"]=>
+        int(23097)
+      }
+      [5]=>
+      object(stdClass)#12 (5) {
+        ["name"]=>
+        string(12) "全年齢版"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E5%85%A8%E5%B9%B4%E9%BD%A2%E7%89%88"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E5%85%A8%E5%B9%B4%E9%BD%A2%E7%89%88"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [6]=>
+      object(stdClass)#13 (5) {
+        ["name"]=>
+        string(15) "ドコモ口座"
+        ["url"]=>
+        string(73) "http://twitter.com/search?q=%E3%83%89%E3%82%B3%E3%83%A2%E5%8F%A3%E5%BA%A7"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(45) "%E3%83%89%E3%82%B3%E3%83%A2%E5%8F%A3%E5%BA%A7"
+        ["tweet_volume"]=>
+        int(349441)
+      }
+      [7]=>
+      object(stdClass)#14 (5) {
+        ["name"]=>
+        string(4) "BUMP"
+        ["url"]=>
+        string(32) "http://twitter.com/search?q=BUMP"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(4) "BUMP"
+        ["tweet_volume"]=>
+        int(35094)
+      }
+      [8]=>
+      object(stdClass)#15 (5) {
+        ["name"]=>
+        string(12) "ジャミル"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E3%82%B8%E3%83%A3%E3%83%9F%E3%83%AB"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E3%82%B8%E3%83%A3%E3%83%9F%E3%83%AB"
+        ["tweet_volume"]=>
+        int(141724)
+      }
+      [9]=>
+      object(stdClass)#16 (5) {
+        ["name"]=>
+        string(12) "わけほー"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E3%82%8F%E3%81%91%E3%81%BB%E3%83%BC"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E3%82%8F%E3%81%91%E3%81%BB%E3%83%BC"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [10]=>
+      object(stdClass)#17 (5) {
+        ["name"]=>
+        string(15) "自分の印象"
+        ["url"]=>
+        string(73) "http://twitter.com/search?q=%E8%87%AA%E5%88%86%E3%81%AE%E5%8D%B0%E8%B1%A1"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(45) "%E8%87%AA%E5%88%86%E3%81%AE%E5%8D%B0%E8%B1%A1"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [11]=>
+      object(stdClass)#18 (5) {
+        ["name"]=>
+        string(4) "ITZY"
+        ["url"]=>
+        string(32) "http://twitter.com/search?q=ITZY"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(4) "ITZY"
+        ["tweet_volume"]=>
+        int(94573)
+      }
+      [12]=>
+      object(stdClass)#19 (5) {
+        ["name"]=>
+        string(12) "出産費用"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E5%87%BA%E7%94%A3%E8%B2%BB%E7%94%A8"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E5%87%BA%E7%94%A3%E8%B2%BB%E7%94%A8"
+        ["tweet_volume"]=>
+        int(14342)
+      }
+      [13]=>
+      object(stdClass)#20 (5) {
+        ["name"]=>
+        string(12) "神木くん"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E7%A5%9E%E6%9C%A8%E3%81%8F%E3%82%93"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E7%A5%9E%E6%9C%A8%E3%81%8F%E3%82%93"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [14]=>
+      object(stdClass)#21 (5) {
+        ["name"]=>
+        string(12) "横浜優勝"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E6%A8%AA%E6%B5%9C%E5%84%AA%E5%8B%9D"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E6%A8%AA%E6%B5%9C%E5%84%AA%E5%8B%9D"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [15]=>
+      object(stdClass)#22 (5) {
+        ["name"]=>
+        string(18) "モンストの日"
+        ["url"]=>
+        string(82) "http://twitter.com/search?q=%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%88%E3%81%AE%E6%97%A5"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(54) "%E3%83%A2%E3%83%B3%E3%82%B9%E3%83%88%E3%81%AE%E6%97%A5"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [16]=>
+      object(stdClass)#23 (5) {
+        ["name"]=>
+        string(9) "大げさ"
+        ["url"]=>
+        string(55) "http://twitter.com/search?q=%E5%A4%A7%E3%81%92%E3%81%95"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(27) "%E5%A4%A7%E3%81%92%E3%81%95"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [17]=>
+      object(stdClass)#24 (5) {
+        ["name"]=>
+        string(15) "綾小路麗華"
+        ["url"]=>
+        string(73) "http://twitter.com/search?q=%E7%B6%BE%E5%B0%8F%E8%B7%AF%E9%BA%97%E8%8F%AF"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(45) "%E7%B6%BE%E5%B0%8F%E8%B7%AF%E9%BA%97%E8%8F%AF"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [18]=>
+      object(stdClass)#25 (5) {
+        ["name"]=>
+        string(12) "引き分け"
+        ["url"]=>
+        string(64) "http://twitter.com/search?q=%E5%BC%95%E3%81%8D%E5%88%86%E3%81%91"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(36) "%E5%BC%95%E3%81%8D%E5%88%86%E3%81%91"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [19]=>
+      object(stdClass)#26 (5) {
+        ["name"]=>
+        string(27) "#APEX部2434キルリレー"
+        ["url"]=>
+        string(93) "http://twitter.com/search?q=%23APEX%E9%83%A82434%E3%82%AD%E3%83%AB%E3%83%AA%E3%83%AC%E3%83%BC"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(65) "%23APEX%E9%83%A82434%E3%82%AD%E3%83%AB%E3%83%AA%E3%83%AC%E3%83%BC"
+        ["tweet_volume"]=>
+        int(18474)
+      }
+      [20]=>
+      object(stdClass)#27 (5) {
+        ["name"]=>
+        string(7) "#rezero"
+        ["url"]=>
+        string(37) "http://twitter.com/search?q=%23rezero"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(9) "%23rezero"
+        ["tweet_volume"]=>
+        int(53142)
+      }
+      [21]=>
+      object(stdClass)#28 (5) {
+        ["name"]=>
+        string(31) "#水曜日のダウンタウン"
+        ["url"]=>
+        string(121) "http://twitter.com/search?q=%23%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(93) "%23%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [22]=>
+      object(stdClass)#29 (5) {
+        ["name"]=>
+        string(22) "#レコメンJO1祭り"
+        ["url"]=>
+        string(88) "http://twitter.com/search?q=%23%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3JO1%E7%A5%AD%E3%82%8A"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(60) "%23%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3JO1%E7%A5%AD%E3%82%8A"
+        ["tweet_volume"]=>
+        int(21635)
+      }
+      [23]=>
+      object(stdClass)#30 (5) {
+        ["name"]=>
+        string(21) "#ホンマでっかtv"
+        ["url"]=>
+        string(87) "http://twitter.com/search?q=%23%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%A7%E3%81%A3%E3%81%8Btv"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(59) "%23%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%A7%E3%81%A3%E3%81%8Btv"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [24]=>
+      object(stdClass)#31 (5) {
+        ["name"]=>
+        string(13) "#キスラジ"
+        ["url"]=>
+        string(67) "http://twitter.com/search?q=%23%E3%82%AD%E3%82%B9%E3%83%A9%E3%82%B8"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(39) "%23%E3%82%AD%E3%82%B9%E3%83%A9%E3%82%B8"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [25]=>
+      object(stdClass)#32 (5) {
+        ["name"]=>
+        string(16) "#家事ヤロウ"
+        ["url"]=>
+        string(76) "http://twitter.com/search?q=%23%E5%AE%B6%E4%BA%8B%E3%83%A4%E3%83%AD%E3%82%A6"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(48) "%23%E5%AE%B6%E4%BA%8B%E3%83%A4%E3%83%AD%E3%82%A6"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [26]=>
+      object(stdClass)#33 (5) {
+        ["name"]=>
+        string(31) "#今夜くらべてみました"
+        ["url"]=>
+        string(121) "http://twitter.com/search?q=%23%E4%BB%8A%E5%A4%9C%E3%81%8F%E3%82%89%E3%81%B9%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(93) "%23%E4%BB%8A%E5%A4%9C%E3%81%8F%E3%82%89%E3%81%B9%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F"
+        ["tweet_volume"]=>
+        int(18697)
+      }
+      [27]=>
+      object(stdClass)#34 (5) {
+        ["name"]=>
+        string(16) "#しゅかラジ"
+        ["url"]=>
+        string(76) "http://twitter.com/search?q=%23%E3%81%97%E3%82%85%E3%81%8B%E3%83%A9%E3%82%B8"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(48) "%23%E3%81%97%E3%82%85%E3%81%8B%E3%83%A9%E3%82%B8"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [28]=>
+      object(stdClass)#35 (5) {
+        ["name"]=>
+        string(15) "#TOKIOカケル"
+        ["url"]=>
+        string(63) "http://twitter.com/search?q=%23TOKIO%E3%82%AB%E3%82%B1%E3%83%AB"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(35) "%23TOKIO%E3%82%AB%E3%82%B1%E3%83%AB"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [29]=>
+      object(stdClass)#36 (5) {
+        ["name"]=>
+        string(16) "#カルロピノ"
+        ["url"]=>
+        string(76) "http://twitter.com/search?q=%23%E3%82%AB%E3%83%AB%E3%83%AD%E3%83%94%E3%83%8E"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(48) "%23%E3%82%AB%E3%83%AB%E3%83%AD%E3%83%94%E3%83%8E"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [30]=>
+      object(stdClass)#37 (5) {
+        ["name"]=>
+        string(13) "#ダメラジ"
+        ["url"]=>
+        string(67) "http://twitter.com/search?q=%23%E3%83%80%E3%83%A1%E3%83%A9%E3%82%B8"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(39) "%23%E3%83%80%E3%83%A1%E3%83%A9%E3%82%B8"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [31]=>
+      object(stdClass)#38 (5) {
+        ["name"]=>
+        string(7) "#XJAPAN"
+        ["url"]=>
+        string(37) "http://twitter.com/search?q=%23XJAPAN"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(9) "%23XJAPAN"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [32]=>
+      object(stdClass)#39 (5) {
+        ["name"]=>
+        string(12) "#c_uteの日"
+        ["url"]=>
+        string(54) "http://twitter.com/search?q=%23c_ute%E3%81%AE%E6%97%A5"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(26) "%23c_ute%E3%81%AE%E6%97%A5"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [33]=>
+      object(stdClass)#40 (5) {
+        ["name"]=>
+        string(25) "#ヤバイVtuber座談会"
+        ["url"]=>
+        string(91) "http://twitter.com/search?q=%23%E3%83%A4%E3%83%90%E3%82%A4Vtuber%E5%BA%A7%E8%AB%87%E4%BC%9A"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(63) "%23%E3%83%A4%E3%83%90%E3%82%A4Vtuber%E5%BA%A7%E8%AB%87%E4%BC%9A"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [34]=>
+      object(stdClass)#41 (5) {
+        ["name"]=>
+        string(31) "#最近言われている悪口"
+        ["url"]=>
+        string(121) "http://twitter.com/search?q=%23%E6%9C%80%E8%BF%91%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%82%AA%E5%8F%A3"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(93) "%23%E6%9C%80%E8%BF%91%E8%A8%80%E3%82%8F%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%82%AA%E5%8F%A3"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [35]=>
+      object(stdClass)#42 (5) {
+        ["name"]=>
+        string(13) "#山口陽世"
+        ["url"]=>
+        string(67) "http://twitter.com/search?q=%23%E5%B1%B1%E5%8F%A3%E9%99%BD%E4%B8%96"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(39) "%23%E5%B1%B1%E5%8F%A3%E9%99%BD%E4%B8%96"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [36]=>
+      object(stdClass)#43 (5) {
+        ["name"]=>
+        string(28) "#小松上坂と夜あそび"
+        ["url"]=>
+        string(112) "http://twitter.com/search?q=%23%E5%B0%8F%E6%9D%BE%E4%B8%8A%E5%9D%82%E3%81%A8%E5%A4%9C%E3%81%82%E3%81%9D%E3%81%B3"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(84) "%23%E5%B0%8F%E6%9D%BE%E4%B8%8A%E5%9D%82%E3%81%A8%E5%A4%9C%E3%81%82%E3%81%9D%E3%81%B3"
+        ["tweet_volume"]=>
+        int(13263)
+      }
+      [37]=>
+      object(stdClass)#44 (5) {
+        ["name"]=>
+        string(9) "#newszero"
+        ["url"]=>
+        string(39) "http://twitter.com/search?q=%23newszero"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(11) "%23newszero"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [38]=>
+      object(stdClass)#45 (5) {
+        ["name"]=>
+        string(16) "#みどりの唄"
+        ["url"]=>
+        string(76) "http://twitter.com/search?q=%23%E3%81%BF%E3%81%A9%E3%82%8A%E3%81%AE%E5%94%84"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(48) "%23%E3%81%BF%E3%81%A9%E3%82%8A%E3%81%AE%E5%94%84"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [39]=>
+      object(stdClass)#46 (5) {
+        ["name"]=>
+        string(9) "#imas_MOR"
+        ["url"]=>
+        string(39) "http://twitter.com/search?q=%23imas_MOR"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(11) "%23imas_MOR"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [40]=>
+      object(stdClass)#47 (5) {
+        ["name"]=>
+        string(49) "#あなたを家庭用ゲーム機に例えたら"
+        ["url"]=>
+        string(175) "http://twitter.com/search?q=%23%E3%81%82%E3%81%AA%E3%81%9F%E3%82%92%E5%AE%B6%E5%BA%AD%E7%94%A8%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%E3%81%AB%E4%BE%8B%E3%81%88%E3%81%9F%E3%82%89"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(147) "%23%E3%81%82%E3%81%AA%E3%81%9F%E3%82%92%E5%AE%B6%E5%BA%AD%E7%94%A8%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%E3%81%AB%E4%BE%8B%E3%81%88%E3%81%9F%E3%82%89"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [41]=>
+      object(stdClass)#48 (5) {
+        ["name"]=>
+        string(28) "#プラチナムクイーン"
+        ["url"]=>
+        string(112) "http://twitter.com/search?q=%23%E3%83%97%E3%83%A9%E3%83%81%E3%83%8A%E3%83%A0%E3%82%AF%E3%82%A4%E3%83%BC%E3%83%B3"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(84) "%23%E3%83%97%E3%83%A9%E3%83%81%E3%83%8A%E3%83%A0%E3%82%AF%E3%82%A4%E3%83%BC%E3%83%B3"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [42]=>
+      object(stdClass)#49 (5) {
+        ["name"]=>
+        string(34) "#CR上位3人で好みがわかる"
+        ["url"]=>
+        string(124) "http://twitter.com/search?q=%23CR%E4%B8%8A%E4%BD%8D3%E4%BA%BA%E3%81%A7%E5%A5%BD%E3%81%BF%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(96) "%23CR%E4%B8%8A%E4%BD%8D3%E4%BA%BA%E3%81%A7%E5%A5%BD%E3%81%BF%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [43]=>
+      object(stdClass)#50 (5) {
+        ["name"]=>
+        string(34) "#あなたの嘘プロフィール"
+        ["url"]=>
+        string(130) "http://twitter.com/search?q=%23%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%98%98%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(102) "%23%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%98%98%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [44]=>
+      object(stdClass)#51 (5) {
+        ["name"]=>
+        string(22) "#編集長稲垣吾郎"
+        ["url"]=>
+        string(94) "http://twitter.com/search?q=%23%E7%B7%A8%E9%9B%86%E9%95%B7%E7%A8%B2%E5%9E%A3%E5%90%BE%E9%83%8E"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(66) "%23%E7%B7%A8%E9%9B%86%E9%95%B7%E7%A8%B2%E5%9E%A3%E5%90%BE%E9%83%8E"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [45]=>
+      object(stdClass)#52 (5) {
+        ["name"]=>
+        string(14) "#ミラクル9"
+        ["url"]=>
+        string(68) "http://twitter.com/search?q=%23%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB9"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(40) "%23%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB9"
+        ["tweet_volume"]=>
+        int(11950)
+      }
+      [46]=>
+      object(stdClass)#53 (5) {
+        ["name"]=>
+        string(22) "#そらちゃんまり"
+        ["url"]=>
+        string(94) "http://twitter.com/search?q=%23%E3%81%9D%E3%82%89%E3%81%A1%E3%82%83%E3%82%93%E3%81%BE%E3%82%8A"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(66) "%23%E3%81%9D%E3%82%89%E3%81%A1%E3%82%83%E3%82%93%E3%81%BE%E3%82%8A"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [47]=>
+      object(stdClass)#54 (5) {
+        ["name"]=>
+        string(34) "#レンタルなんもしない人"
+        ["url"]=>
+        string(130) "http://twitter.com/search?q=%23%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB%E3%81%AA%E3%82%93%E3%82%82%E3%81%97%E3%81%AA%E3%81%84%E4%BA%BA"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(102) "%23%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB%E3%81%AA%E3%82%93%E3%82%82%E3%81%97%E3%81%AA%E3%81%84%E4%BA%BA"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [48]=>
+      object(stdClass)#55 (5) {
+        ["name"]=>
+        string(36) "#AROWZトップライバーチーム"
+        ["url"]=>
+        string(126) "http://twitter.com/search?q=%23AROWZ%E3%83%88%E3%83%83%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%83%81%E3%83%BC%E3%83%A0"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(98) "%23AROWZ%E3%83%88%E3%83%83%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%83%81%E3%83%BC%E3%83%A0"
+        ["tweet_volume"]=>
+        NULL
+      }
+      [49]=>
+      object(stdClass)#56 (5) {
+        ["name"]=>
+        string(17) "#ニュースzero"
+        ["url"]=>
+        string(71) "http://twitter.com/search?q=%23%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9zero"
+        ["promoted_content"]=>
+        NULL
+        ["query"]=>
+        string(43) "%23%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9zero"
+        ["tweet_volume"]=>
+        NULL
+      }
+    }
+    ["as_of"]=>
+    string(20) "2020-09-09T15:18:49Z"
+    ["created_at"]=>
+    string(20) "2020-09-09T15:15:56Z"
+    ["locations"]=>
+    array(1) {
+      [0]=>
+      object(stdClass)#58 (2) {
+        ["name"]=>
+        string(5) "Japan"
+        ["woeid"]=>
+        int(23424856)
+      }
+    }
+  }
+}

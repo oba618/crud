@@ -1,0 +1,5 @@
+
+Warning: json_decode() expects parameter 1 to be string, array given in /home/vagrant/phpPractice/twitterauth_test/index.php on line 20
+
+Notice: Array to string conversion in /home/vagrant/phpPractice/twitterauth_test/index.php on line 22
+Array

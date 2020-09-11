@@ -2,7 +2,7 @@
 CRUD.php
 
 # URL
-https://tomohiro.site/CRUD/index.php
+https://tomohiro.site/crud/index.php
 ご自由にお使いください。
 
 # Features

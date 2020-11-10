@@ -33,4 +33,4 @@ require 'header.php'; ?>
 			<input class="button button_delete" type="submit" name="delete" value="削除" />
 		</form>
 	</div>
-<?php 'footer.php' ?>
+<?php require 'footer.php'; ?>

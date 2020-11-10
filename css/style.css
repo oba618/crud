@@ -1,10 +1,13 @@
-body {
+#body {
 	font-size: 1rem;
 	font-family: "segoe ui",meiryo,"yu gothic","hiragino kaku gothic pron",sans-serif;
-	width: 490px;
 	background-color: black;
 	color: #3cb371;
-	margin: 10px auto 0px auto;
+}
+
+.wrapper {
+	width: 490px;
+	margin: 5px auto 0px auto;
 }
 
 .header {
@@ -18,14 +21,68 @@ body {
 	color: black;
 }
 
+.header_title_box {
+	position: relative;
+	display: block;
+	height: 80px;
+}
+
 .header_title {
-	padding: 5px;
 	font-size: 3rem;
+	font-family: 'Noto Serif JP', serif;
+	transform: scale(0.8, 1);
+}
+
+.header_title::before {
+	content: '▲';
+    top: -6px;
+    left: 218px;
+    position: absolute;
+    font-size: 3.8rem;
+}
+
+.header_title::after {
+	content: '.OF THE';
+    top: 18px;
+    left: 231px;
+    position: absolute;
+    font-size: 0.9rem;
+	color: white;
+    width: 20px;
+}
+
+.header_sub {
+	font-style: italic;
 }
 
 .header_ver {
-	text-align: right;
-	padding-right: 5px;
+    font-size: 2rem;
+    transform: scale(1, 0.5);
+    position: absolute;
+    top: 52px;
+    left: 180px;
+    width: 300px;
+}
+.header_ver::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: -106px;
+    font-size: 0px;
+	background-color: black;
+	width: 220px;
+	height: 6px;
+}
+
+.header_ver::after {
+    content: '';
+    position: absolute;
+    top: 16;
+    left: 183px;
+    font-size: 0px;
+	background-color: black;
+	width: 42px;
+	height: 6px;
 }
 
 .top_nav {
@@ -61,14 +118,65 @@ body {
 	font-size: 2rem;
 }
 
+#input_menu {
+	cursor: pointer;
+}
+
+#comment_toggle {
+	cursor: pointer;
+}
+
+.comment_wrapper {
+	display: none;
+}
+
+.input_wrapper {
+	display: none;
+}
+
+.input_try {
+	transition: all 0.5s; 
+ }
+
+ .comment_try {
+	 transition: all 0.5s;
+ }
+
+.toggle_menu {
+	cursor: pointer;
+}
+
+.toggle_menu_try {
+   transition: all 0.5s; 
+}
+
+.try_click {
+	transform: rotate(180deg);
+	display: inline-block;
+}
+
 .content_info {
 	margin: 5px 5px 5px 20px;
+	display: none;
+}
+
+.active_try {
+	color: blue;
+}
+
+.search_answer {
+	font-size: 1.2em;
+	color: aqua;
 }
 
 .content p {
 	font-size: 1rem;
 	word-break: break-all;
 	padding: 5px 0px;
+}
+
+.content_sort {
+	border: none;
 }
 
 .small-font {
@@ -115,6 +223,34 @@ body {
 	text-align: right;
 }
 
+/*===================*/
+/* show_twitter_trend */
+/*===================*/
+.trend_0 {
+	color: #3cb371;
+}
+
+.trend_5 {
+	color: #8df751;
+}
+
+.trend_10 {
+	color: #fcff4f;
+}
+
+.trend_20 {
+	color: #ff9a89;
+}
+
+.trend_100 {
+	color: #ffbec3;
+	font-size: 1.4rem;
+}
+
+.trend_default {
+	color: #3cb371;
+}
+
 .footer {
 	text-align: center;
 	background-color: #3cb371;
@@ -126,11 +262,117 @@ body {
 /*===================*/
 
 @media screen and (max-width: 490px) {
-body {
-	width:98%;
+	.wrapper {
+		width: 98%;
+	}
+
+	.header_title_box {
+		height: 60px;
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.header_title {
+		font-size: 2rem;
+	}
+
+	.header_title::before {
+	    top: -5px;
+    	left: 133px;
+    	position: absolute;
+    	font-size: 2.6rem;
+	}
+
+	.header_title::after {
+	    top: 11px;
+		left: 142px;
+		position: absolute;
+		font-size: 0.6rem;
+		color: white;
+		width: 20px;
+	}
+
+	.header_sub {
+		font-size: 0.8rem;
+	}
+
+	.header_ver {
+		font-size: 1.6rem;
+		position: absolute;
+		top: 37px;
+		left: 130px;
+		width: 140px;
+	}
+	.header_ver::before {
+		content: '-------------';
+		position: absolute;
+		top: -27px;
+		left: -102px;
+		font-size: 65px;
+		letter-spacing: -16px;
+	}
+
+	.header_ver::after {
+		content: '---';
+		position: absolute;
+		top: -27px;
+		left: 110px;
+		font-size: 65px;
+		letter-spacing: -31px;
+	}
 }
 
-.header_title {
-	font-size: 2rem;
+/*===================*/
+/* @Loding-Animation */
+/*===================*/
+#loading {
+	width: 100vw;
+	height: 100vh;
+	transition: all 1s;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
+.loaded {
+	visibility: hidden;
 }
+.spinner {
+	width: 80vw;
+	height: 10px;
+	margin-top: 200px;
+	margin-left: 0px;
+	margin-bottom: 200px;;
+	background-color: #3cb371;
+	animation: loading 0.4s;
+}
+
+.spinner::before {
+	content: 'NOW LOADING....';
+	position: absolute;
+	top: 150px;
+	left: 10px;
+	width: 200px;
+}
+@keyframes loading {
+	0% {
+		width: 0vw;
+	}
+	5% {
+		width: 8vw;
+	}
+	65% {
+		width: 8vw;
+	}
+	70% {
+		width: 15vw;
+	}
+	95% {
+		width: 15vw;
+	}
+	100% {
+		width: 80vw;
+	}
+}
+

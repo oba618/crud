@@ -3,8 +3,9 @@ require 'conect.php';
 require 'header.php';
 ?>
 	<div class="content">
-		<h2 class="content_title">更新情報</h2>
+		<h2 class="content_title toggle_menu">更新情報<span class="toggle_menu_try">▼</span></h2>
 		<ul class="content_info">
+			<li>11/5 BOARDページをトグルメニュー化</li>
 			<li>9/9 TREND機能追加</li>
 			<li>9/2 Update機能追加</li>
 			<li>9/1 Delete機能追加</li>
@@ -13,7 +14,8 @@ require 'header.php';
 		</ul>
 	</div>
 	<div class="content">
-		<h2 class="content_title">入力フォーム</h2>
+		<h2 id="input_menu" class="content_title">入力フォーム<span class="input_try">▼</span></h2>
+		<div class="input_wrapper">
 		<form method="post" action="create.php">
 			<p>名前（20文字まで）<br>
 			<input class="input_name" type="text" name="name" value="" /></p>
@@ -31,8 +33,11 @@ if (isset($_SESSION['msg']))
 }
 ?>
 		</form>
+		</div>
 	</div>
 	<div class="content">
+	<h2 id="comment_toggle" class="content_title">コメント<span class="comment_try">▼</span></h2>
+	<div class="comment_wrapper">
 <?php
 foreach($data as $key =>$val)
 {
@@ -60,5 +65,6 @@ foreach($data as $key =>$val)
 		</div>',PHP_EOL;
 }
 ?>
+	</div>
 	</div>
 <?php require 'footer.php'; ?>

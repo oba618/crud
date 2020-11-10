@@ -1,0 +1,14 @@
+$(function(){
+	$(".toggle_menu").click(function(){
+		$(".content_info").slideToggle(200);
+		$(".toggle_menu_try").toggleClass("try_click");
+	});
+	$("#input_menu").click(function(){
+		$(".input_wrapper").slideToggle(200);
+		$(".input_try").toggleClass("try_click");
+	});
+	$("#comment_toggle").click(function(){
+		$(".comment_wrapper").slideToggle(299);
+		$(".comment_try").toggleClass("try_click");
+	});
+});

@@ -1,0 +1,53 @@
+#body {
+	background-color: white;
+	color: #336699;
+}
+
+.wrapper {
+	background-color: #eee;
+	color: #336699;
+}
+
+.header {
+	background-color: #336699;
+	color: white;
+}
+
+.header a {
+	color: white;
+}
+
+.header_title::after {
+	color: #336699;
+}
+
+.top_nav li {
+	border: 1px solid white;
+}
+
+.content {
+	border:1px solid #336699;
+}
+
+.content h2 {
+	border-top: 1px solid #336699;
+	border-left: 10px solid #336699;
+}
+
+.button_create {
+	background-color: #336699;
+}
+
+.button_check {
+	background-color: #777;
+	background-color: #336699;
+}
+
+.post {
+	border: 1px solid #336699;
+}
+
+.footer {
+	background-color: #336699;
+	color: white;
+}

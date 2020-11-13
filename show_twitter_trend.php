@@ -76,6 +76,10 @@ for($i=1; $i<=12; $i++){
 	</script>
 </div>
 <div class="content">
+	<h2 class="content_graph">トレンドクラウド(β版)</h2>
+	<DIV id="cloud"></DIV>
+</div>
+<div class="content">
 <?php
 if (isset($_SESSION['check']))
 {
@@ -132,6 +136,7 @@ else if (file_exists($open_file))
 			}
 		}
 	}
+	fclose($open_file);
 }
 else
 {
@@ -139,6 +144,10 @@ else
 }
 ?>
 </div>
+<!-- word cloud -->
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+<script src="js/cloud.js"></script>
 
 <?php
 require 'footer.php';
